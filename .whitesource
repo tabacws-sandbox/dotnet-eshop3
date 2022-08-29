@@ -17,11 +17,7 @@
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
-    "workflowRules": {
-      "enabled": true,
-      "minVulnerabilityScore": 1.5,
-      "maxVulnerabilityScore": 10
-    },
+    "enableRenovate": true,
     "extends": [
       "github>whitesource/merge-confidence:beta"
     ]
